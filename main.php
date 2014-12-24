@@ -64,7 +64,45 @@ class main {
         return $this->_obContainer;
     }
 
+    public function arrayToCsv($arIn, $filename, $arHeader = array())
+    {
+        if ( !empty($arIn) )
+        {
+            if ( empty($arHeader) )
+            {
+                $arFirstElement = reset($arIn);
+                $arHeader = array();
 
+                foreach ($arFirstElement as $nameValue => $tmp)
+                {
+                    $nameField = str_replace("'", "\"", $nameValue);
+                    $arHeader[] = array($nameValue => $nameField);
+                }
+
+                $strHeader = "'" . implode("','", $arHeader) . "'" . PHP_EOL;
+
+                file_put_contents($filename, $strHeader); //-- FILE_APPEND
+
+                foreach ($arIn as $arValue)
+                {
+                    $arRow = array();
+                    foreach ($arHeader as $nameValue => $nameField)
+                    {
+                        if (!empty($arValue[$nameValue]))
+                        {
+                            $arRow[] = $arValue[$nameValue];
+                        } else {
+                            $arRow[] = "";
+                        }
+                    }
+
+                    $strRow = "'" . implode("','", $arRow) . "'" . PHP_EOL;
+
+                    file_put_contents($filename, $strRow, FILE_APPEND);
+                }
+            }
+        }
+    }
 
     function test()
     {
