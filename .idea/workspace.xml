@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="888eabb1-2615-4783-8122-8aff22619abd" name="Default" comment="" />
+    <list default="true" id="888eabb1-2615-4783-8122-8aff22619abd" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.php" afterPath="$PROJECT_DIR$/main.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="kbParser.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,11 +26,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="29" selection-start="860" selection-end="860" vertical-scroll-proportion="-11.576923" vertical-offset="515" max-vertical-offset="1241">
-              <folding />
+            <state line="100" column="56" selection-start="2405" selection-end="2405" vertical-scroll-proportion="0.6555423" vertical-offset="1150" max-vertical-offset="2074">
+              <folding>
+                <element signature="e#6#84#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -35,7 +40,7 @@
       <file leaf-file-name="container.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/container.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="0" selection-start="940" selection-end="940" vertical-scroll-proportion="-10.230769" vertical-offset="635" max-vertical-offset="4063">
+            <state line="145" column="105" selection-start="2816" selection-end="2823" vertical-scroll-proportion="-10.461538" vertical-offset="2193" max-vertical-offset="4063">
               <folding>
                 <element signature="e#6#150#0" expanded="true" />
               </folding>
@@ -43,38 +48,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PHP/\kbnet\parser\main" pinned="false" current="true" current-in-tab="true">
-        <entry file="uml://PHP/\kbnet\parser\main">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>PHP</ID>
-              <OriginalElement>\kbnet\parser\main</OriginalElement>
-              <nodes>
-                <node x="848.0" y="655.0">\kbnet\parser\main</node>
-                <node x="0.0" y="0.0">\kbnet\parser\mycurl</node>
-                <node x="0.0" y="655.0">\kbnet\parser\container</node>
-                <node x="511.0" y="655.0">\kbnet\parser\htmlPage</node>
-              </nodes>
-              <notes />
-              <edges />
-              <settings layout="Hierarchic Group" zoom="0.7723502304147466" x="575.3729116945107" y="579.3466587112172" />
-              <SelectedNodes>
-                <node>\kbnet\parser\main</node>
-              </SelectedNodes>
-              <Categories>
-                <Category>Fields</Category>
-                <Category>Constructors</Category>
-                <Category>Methods</Category>
-              </Categories>
-              <VISIBILITY>private</VISIBILITY>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="htmlPage.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/htmlPage.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="97" selection-start="935" selection-end="1012" vertical-scroll-proportion="0.0" vertical-offset="782" max-vertical-offset="3264">
+            <state line="117" column="42" selection-start="3139" selection-end="3139" vertical-scroll-proportion="-12.653846" vertical-offset="1575" max-vertical-offset="3179">
               <folding />
             </state>
           </provider>
@@ -83,7 +60,7 @@
       <file leaf-file-name="mycurl.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mycurl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="123" column="34" selection-start="3432" selection-end="3432" vertical-scroll-proportion="0.0" vertical-offset="2091" max-vertical-offset="2414">
+            <state line="123" column="34" selection-start="3432" selection-end="3432" vertical-scroll-proportion="-19.846153" vertical-offset="1490" max-vertical-offset="2329">
               <folding />
             </state>
           </provider>
@@ -96,13 +73,16 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/mycurl.php" />
         <option value="$PROJECT_DIR$/htmlPage.php" />
-        <option value="$PROJECT_DIR$/main.php" />
         <option value="$PROJECT_DIR$/container.php" />
+        <option value="$PROJECT_DIR$/main.php" />
       </list>
     </option>
   </component>
@@ -212,6 +192,15 @@
       <created>1419061831593</created>
       <updated>1419061831593</updated>
     </task>
+    <task id="LOCAL-00001" summary="1">
+      <created>1419417050968</created>
+      <updated>1419417050968</updated>
+    </task>
+    <task id="LOCAL-00002" summary="arrayToCsv v.1">
+      <created>1419446912562</created>
+      <updated>1419446912562</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -225,9 +214,10 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1268238" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32996634" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14110756" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17305644" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -252,9 +242,14 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="1" />
+    <MESSAGE value="arrayToCsv v.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="arrayToCsv v.1" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <PATH>
@@ -276,7 +271,9 @@
     <entry file="file://$PROJECT_DIR$/main.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="23" selection-start="192" selection-end="192" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1054">
-          <folding />
+          <folding>
+            <element signature="e#6#84#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -306,7 +303,9 @@
     <entry file="file://$PROJECT_DIR$/main.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="0" selection-start="383" selection-end="383" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="1037">
-          <folding />
+          <folding>
+            <element signature="e#6#84#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -327,7 +326,9 @@
     <entry file="file://$PROJECT_DIR$/main.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="0" selection-start="383" selection-end="383" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1037">
-          <folding />
+          <folding>
+            <element signature="e#6#84#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -348,7 +349,9 @@
     <entry file="file://$PROJECT_DIR$/main.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="54" column="30" selection-start="847" selection-end="847" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1054">
-          <folding />
+          <folding>
+            <element signature="e#6#84#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -362,7 +365,9 @@
     <entry file="file://$PROJECT_DIR$/main.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="54" column="30" selection-start="847" selection-end="847" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="1054">
-          <folding />
+          <folding>
+            <element signature="e#6#84#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -376,7 +381,9 @@
     <entry file="file://$PROJECT_DIR$/main.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="14" selection-start="80" selection-end="80" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1054">
-          <folding />
+          <folding>
+            <element signature="e#6#84#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -390,7 +397,9 @@
     <entry file="file://$PROJECT_DIR$/main.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="8" selection-start="220" selection-end="220" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="442">
-          <folding />
+          <folding>
+            <element signature="e#6#84#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -401,59 +410,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mycurl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="123" column="34" selection-start="3432" selection-end="3432" vertical-scroll-proportion="0.0" vertical-offset="2091" max-vertical-offset="2414">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/htmlPage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="97" selection-start="935" selection-end="1012" vertical-scroll-proportion="0.0" vertical-offset="782" max-vertical-offset="3264">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="29" selection-start="860" selection-end="860" vertical-scroll-proportion="-11.576923" vertical-offset="515" max-vertical-offset="1241">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/container.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="0" selection-start="940" selection-end="940" vertical-scroll-proportion="-10.230769" vertical-offset="635" max-vertical-offset="4063">
-          <folding>
-            <element signature="e#6#150#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://PHP/\kbnet\parser\main">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
           <ID>PHP</ID>
           <OriginalElement>\kbnet\parser\main</OriginalElement>
           <nodes>
-            <node x="848.0" y="655.0">\kbnet\parser\main</node>
-            <node x="0.0" y="0.0">\kbnet\parser\mycurl</node>
-            <node x="0.0" y="655.0">\kbnet\parser\container</node>
-            <node x="511.0" y="655.0">\kbnet\parser\htmlPage</node>
+            <node x="" y="">\kbnet\parser\main</node>
+            <node x="" y="">\kbnet\parser\mycurl</node>
+            <node x="" y="">\kbnet\parser\container</node>
+            <node x="" y="">\kbnet\parser\htmlPage</node>
           </nodes>
           <notes />
           <edges />
           <settings layout="Hierarchic Group" zoom="0.7723502304147466" x="575.3729116945107" y="579.3466587112172" />
-          <SelectedNodes>
-            <node>\kbnet\parser\main</node>
-          </SelectedNodes>
+          <SelectedNodes />
           <Categories>
             <Category>Fields</Category>
             <Category>Constructors</Category>
             <Category>Methods</Category>
           </Categories>
           <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mycurl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="123" column="34" selection-start="3432" selection-end="3432" vertical-scroll-proportion="-19.846153" vertical-offset="1490" max-vertical-offset="2329">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/container.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="145" column="105" selection-start="2816" selection-end="2823" vertical-scroll-proportion="-10.461538" vertical-offset="2193" max-vertical-offset="4063">
+          <folding>
+            <element signature="e#6#150#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/htmlPage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="117" column="42" selection-start="3139" selection-end="3139" vertical-scroll-proportion="-12.653846" vertical-offset="1575" max-vertical-offset="3179">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="100" column="56" selection-start="2405" selection-end="2405" vertical-scroll-proportion="0.6555423" vertical-offset="1150" max-vertical-offset="2074">
+          <folding>
+            <element signature="e#6#84#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

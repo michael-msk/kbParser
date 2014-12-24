@@ -76,30 +76,36 @@ class main {
                 foreach ($arFirstElement as $nameValue => $tmp)
                 {
                     $nameField = str_replace("'", "\"", $nameValue);
-                    $arHeader[] = array($nameValue => $nameField);
+                    $arHeader[$nameValue] = $nameField;
                 }
+            }
 
-                $strHeader = "'" . implode("','", $arHeader) . "'" . PHP_EOL;
+            $strHeader = '"' . implode('";"', $arHeader) . '"' . PHP_EOL;
+            file_put_contents($filename, $strHeader); //-- FILE_APPEND
 
-                file_put_contents($filename, $strHeader); //-- FILE_APPEND
-
-                foreach ($arIn as $arValue)
+            foreach ($arIn as $arValue)
+            {
+                $arRow = array();
+                foreach ($arHeader as $nameValue => $nameField)
                 {
-                    $arRow = array();
-                    foreach ($arHeader as $nameValue => $nameField)
+                    if (!empty($arValue[$nameValue]))
                     {
-                        if (!empty($arValue[$nameValue]))
+                        //-- обработчик------ !!!
+                        if ($nameValue == "price")
                         {
-                            $arRow[] = $arValue[$nameValue];
-                        } else {
-                            $arRow[] = "";
+                            // $arValue[$nameValue] = str_replace(",", ".", $arValue[$nameValue]);
+                            $arValue[$nameValue] = str_replace(" ", "", $arValue[$nameValue]);
                         }
+                        //-------------------
+
+                        $arRow[] = $arValue[$nameValue];
+                    } else {
+                        $arRow[] = "";
                     }
-
-                    $strRow = "'" . implode("','", $arRow) . "'" . PHP_EOL;
-
-                    file_put_contents($filename, $strRow, FILE_APPEND);
                 }
+
+                $strRow = '"' . implode('";"', $arRow) . '"' . PHP_EOL;
+                file_put_contents($filename, $strRow, FILE_APPEND);
             }
         }
     }
