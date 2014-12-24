@@ -201,7 +201,7 @@ class container {
              throw new \Exception('Error json_encode - $this->_arVariables'. PHP_EOL);
          }
 
-        return false;
+        // return false;
     }
 
     private function isCorrectName($name)
