@@ -29,7 +29,7 @@
       <file leaf-file-name="main.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="100" column="56" selection-start="2405" selection-end="2405" vertical-scroll-proportion="0.6555423" vertical-offset="1150" max-vertical-offset="2074">
+            <state line="68" column="9" selection-start="1157" selection-end="1157" vertical-scroll-proportion="0.4600715" vertical-offset="770" max-vertical-offset="2074">
               <folding>
                 <element signature="e#6#84#0" expanded="true" />
               </folding>
@@ -40,10 +40,8 @@
       <file leaf-file-name="container.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/container.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="145" column="105" selection-start="2816" selection-end="2823" vertical-scroll-proportion="-10.461538" vertical-offset="2193" max-vertical-offset="4063">
-              <folding>
-                <element signature="e#6#150#0" expanded="true" />
-              </folding>
+            <state line="145" column="105" selection-start="2816" selection-end="2823" vertical-scroll-proportion="0.0" vertical-offset="2465" max-vertical-offset="4063">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -51,7 +49,7 @@
       <file leaf-file-name="htmlPage.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/htmlPage.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="117" column="42" selection-start="3139" selection-end="3139" vertical-scroll-proportion="-12.653846" vertical-offset="1575" max-vertical-offset="3179">
+            <state line="117" column="42" selection-start="3139" selection-end="3139" vertical-scroll-proportion="0.0" vertical-offset="1989" max-vertical-offset="3264">
               <folding />
             </state>
           </provider>
@@ -60,7 +58,7 @@
       <file leaf-file-name="mycurl.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mycurl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="123" column="34" selection-start="3432" selection-end="3432" vertical-scroll-proportion="-19.846153" vertical-offset="1490" max-vertical-offset="2329">
+            <state line="123" column="34" selection-start="3432" selection-end="3432" vertical-scroll-proportion="0.0" vertical-offset="2091" max-vertical-offset="2414">
               <folding />
             </state>
           </provider>
@@ -200,31 +198,35 @@
       <created>1419446912562</created>
       <updated>1419446912562</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="arrayToCsv v.1">
+      <created>1419450760703</created>
+      <updated>1419450760703</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1928" height="1035" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1268238" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32996634" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32996634" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14110756" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17305644" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17625134" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32996634" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1268238" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32996634" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -270,6 +272,66 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/main.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="9" selection-start="1157" selection-end="1157" vertical-scroll-proportion="0.0" vertical-offset="770" max-vertical-offset="2074">
+          <folding>
+            <element signature="e#6#84#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/container.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="145" column="105" selection-start="2816" selection-end="2823" vertical-scroll-proportion="0.0" vertical-offset="2465" max-vertical-offset="4063">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/htmlPage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="117" column="42" selection-start="3139" selection-end="3139" vertical-scroll-proportion="0.0" vertical-offset="1989" max-vertical-offset="3264">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mycurl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="123" column="34" selection-start="3432" selection-end="3432" vertical-scroll-proportion="0.0" vertical-offset="2091" max-vertical-offset="2414">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="95" column="56" selection-start="2138" selection-end="2138" vertical-scroll-proportion="0.0" vertical-offset="1150" max-vertical-offset="2074">
+          <folding>
+            <element signature="e#6#84#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/container.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="145" column="105" selection-start="2816" selection-end="2823" vertical-scroll-proportion="0.0" vertical-offset="2465" max-vertical-offset="4063">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/htmlPage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="117" column="42" selection-start="3139" selection-end="3139" vertical-scroll-proportion="0.0" vertical-offset="1989" max-vertical-offset="3264">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mycurl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="123" column="34" selection-start="3432" selection-end="3432" vertical-scroll-proportion="0.0" vertical-offset="2091" max-vertical-offset="2414">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="23" selection-start="192" selection-end="192" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1054">
           <folding>
             <element signature="e#6#84#0" expanded="true" />
@@ -280,9 +342,7 @@
     <entry file="file://$PROJECT_DIR$/container.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="58" column="21" selection-start="1052" selection-end="1052" vertical-scroll-proportion="0.0" vertical-offset="986" max-vertical-offset="1224">
-          <folding>
-            <element signature="e#6#150#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -423,43 +483,42 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="0.7723502304147466" x="575.3729116945107" y="579.3466587112172" />
+          <settings layout="Hierarchic Group" zoom="0.7723502304147466" x="575.0" y="579.0" />
           <SelectedNodes />
           <Categories>
-            <Category>Fields</Category>
             <Category>Constructors</Category>
+            <Category>Fields</Category>
             <Category>Methods</Category>
           </Categories>
+          <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mycurl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="123" column="34" selection-start="3432" selection-end="3432" vertical-scroll-proportion="-19.846153" vertical-offset="1490" max-vertical-offset="2329">
+        <state line="123" column="34" selection-start="3432" selection-end="3432" vertical-scroll-proportion="0.0" vertical-offset="2091" max-vertical-offset="2414">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/container.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="145" column="105" selection-start="2816" selection-end="2823" vertical-scroll-proportion="-10.461538" vertical-offset="2193" max-vertical-offset="4063">
-          <folding>
-            <element signature="e#6#150#0" expanded="true" />
-          </folding>
+        <state line="145" column="105" selection-start="2816" selection-end="2823" vertical-scroll-proportion="0.0" vertical-offset="2465" max-vertical-offset="4063">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/htmlPage.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="117" column="42" selection-start="3139" selection-end="3139" vertical-scroll-proportion="-12.653846" vertical-offset="1575" max-vertical-offset="3179">
+        <state line="117" column="42" selection-start="3139" selection-end="3139" vertical-scroll-proportion="0.0" vertical-offset="1989" max-vertical-offset="3264">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="100" column="56" selection-start="2405" selection-end="2405" vertical-scroll-proportion="0.6555423" vertical-offset="1150" max-vertical-offset="2074">
+        <state line="68" column="9" selection-start="1157" selection-end="1157" vertical-scroll-proportion="0.4600715" vertical-offset="770" max-vertical-offset="2074">
           <folding>
             <element signature="e#6#84#0" expanded="true" />
           </folding>

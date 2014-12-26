@@ -81,7 +81,7 @@ class main {
             }
 
             $strHeader = '"' . implode('";"', $arHeader) . '"' . PHP_EOL;
-            file_put_contents($filename, $strHeader); //-- FILE_APPEND
+            file_put_contents($filename, iconv('utf-8', 'windows-1251', $strHeader)); //-- FILE_APPEND
 
             foreach ($arIn as $arValue)
             {
@@ -105,7 +105,7 @@ class main {
                 }
 
                 $strRow = '"' . implode('";"', $arRow) . '"' . PHP_EOL;
-                file_put_contents($filename, $strRow, FILE_APPEND);
+                file_put_contents($filename, iconv('utf-8', 'windows-1251', $strRow), FILE_APPEND);
             }
         }
     }
