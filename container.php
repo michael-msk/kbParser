@@ -19,7 +19,7 @@ class container {
     private $_readOnly = false;
     private $_isNull = false;
 
-   private $_isNewConteiner = false;
+   private $_isNewContainer = false;
 
     private $_arVariables = array();
 
@@ -35,7 +35,7 @@ class container {
             {
                 if ($this->create() === true)
                 {
-                    $this->_isNewConteiner = true;
+                    $this->_isNewContainer = true;
                 } else {
                     throw new \Exception('Error of creation of the container - "'.$name.'".' . PHP_EOL);
                 }
@@ -80,7 +80,7 @@ class container {
         return false;
     }
 
-    private function close()
+    public function close()
     {
         if ($this->_isNull)
         {
@@ -241,9 +241,9 @@ class container {
     /**
      * @return boolean
      */
-    public function getIsNewConteiner()
+    public function getIsNewContainer()
     {
-        return $this->_isNewConteiner;
+        return $this->_isNewContainer;
     }
 
 }

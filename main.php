@@ -11,12 +11,18 @@ namespace kbnet\parser;
 require_once('htmlPage.php');
 require_once('mycurl.php');
 require_once('container.php');
+require_once('logger.php');
 
 class main {
+
+    const DEBUG = true;
+    const LOG_FILENAME = 'parser.log';
+    public $obLog;
 
     private $_arConfig;
 
     private $_obPage;
+
     private $_obContainer;
 
     private $_arStatus = array(
@@ -26,11 +32,21 @@ class main {
 
     private $_endProcess = true;
 
+
     function __construct($arConfig)
     {
+        $this->obLog = new logger(self::LOG_FILENAME, self::DEBUG);
+
         $this->_arConfig = $arConfig;
 
         $this->_obPage = new htmlPage($this->_arConfig['START_PAGE']);
+
+
+    }
+
+    function nextStep()
+    {
+        echo "Следующий шаг" . PHP_EOL;
     }
 
     /**
@@ -65,12 +81,16 @@ class main {
 
     public function closeContainer()
     {
-        if ( $this->_obContainer->close() === true )
+        if ( $this->_obContainer instanceof container )
         {
-            return true;
-        } else {
-            throw new \Exception('Error of close of the container - "'.$name.'".' . PHP_EOL);
+            if ( $this->_obContainer->close()  === true )
+            {
+                return true;
+            } else {
+                throw new \Exception('Error of close of the container - "'. PHP_EOL);
+            }
         }
+        return false;
     }
 
 
