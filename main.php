@@ -16,7 +16,7 @@ require_once('logger.php');
 class main {
 
     const DEBUG = true;
-    const LOG_FILENAME = 'parser.log';
+    const LOG_FILENAME = '/test/parser.log';
     public $obLog;
 
     private $_arConfig;
@@ -35,7 +35,7 @@ class main {
 
     function __construct($arConfig)
     {
-        $this->obLog = new logger(self::LOG_FILENAME, self::DEBUG);
+        $this->obLog = new logger($_SERVER['DOCUMENT_ROOT'] . self::LOG_FILENAME, self::DEBUG);
 
         $this->_arConfig = $arConfig;
 
@@ -47,6 +47,10 @@ class main {
     function nextStep()
     {
         echo "Следующий шаг" . PHP_EOL;
+
+
+
+        return false;
     }
 
     /**

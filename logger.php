@@ -30,14 +30,14 @@ class logger {
             $this->delete();
         }
 
-        $text = '-- Start Log -- ' . date(DATE_RFC822) . '--' . PHP_EOL;
+        $text = '-- Start Log -- ' . date(DATE_RFC822) . ' --' . PHP_EOL;
 
         $this->add( $text );
     }
 
     function __destruct()
     {
-        $text = '-- End Log -- ' . date(DATE_RFC822) . '--' . PHP_EOL;
+        $text = '-- End Log ---- ' . date(DATE_RFC822) . ' --' . PHP_EOL;
 
         $this->add( $text );
     }

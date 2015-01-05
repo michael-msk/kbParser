@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="888eabb1-2615-4783-8122-8aff22619abd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/container.php" afterPath="$PROJECT_DIR$/container.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logger.php" afterPath="$PROJECT_DIR$/logger.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.php" afterPath="$PROJECT_DIR$/main.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -30,7 +30,7 @@
       <file leaf-file-name="main.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="5" selection-start="830" selection-end="830" vertical-scroll-proportion="0.8095238" vertical-offset="391" max-vertical-offset="3009">
+            <state line="58" column="20" selection-start="965" selection-end="965" vertical-scroll-proportion="0.33333334" vertical-offset="774" max-vertical-offset="3077">
               <folding>
                 <element signature="e#6#84#0" expanded="true" />
               </folding>
@@ -41,7 +41,7 @@
       <file leaf-file-name="logger.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/logger.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="68" selection-start="244" selection-end="244" vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="1122">
+            <state line="32" column="59" selection-start="648" selection-end="648" vertical-scroll-proportion="-20.923077" vertical-offset="0" max-vertical-offset="1122">
               <folding>
                 <element signature="e#6#84#0" expanded="true" />
               </folding>
@@ -52,7 +52,7 @@
       <file leaf-file-name="container.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/container.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="19" selection-start="236" selection-end="236" vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="4199">
+            <state line="105" column="25" selection-start="1924" selection-end="1924" vertical-scroll-proportion="-64.07692" vertical-offset="0" max-vertical-offset="4199">
               <folding />
             </state>
           </provider>
@@ -61,7 +61,7 @@
       <file leaf-file-name="htmlPage.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/htmlPage.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="117" column="42" selection-start="3139" selection-end="3139" vertical-scroll-proportion="0.0" vertical-offset="1989" max-vertical-offset="3264">
+            <state line="96" column="0" selection-start="2496" selection-end="2496" vertical-scroll-proportion="-59.5" vertical-offset="0" max-vertical-offset="3179">
               <folding />
             </state>
           </provider>
@@ -70,7 +70,7 @@
       <file leaf-file-name="mycurl.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mycurl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="-0.61538464" vertical-offset="1" max-vertical-offset="2329">
+            <state line="11" column="20" selection-start="146" selection-end="146" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="2329">
               <folding />
             </state>
           </provider>
@@ -91,8 +91,8 @@
       <list>
         <option value="$PROJECT_DIR$/mycurl.php" />
         <option value="$PROJECT_DIR$/htmlPage.php" />
-        <option value="$PROJECT_DIR$/logger.php" />
         <option value="$PROJECT_DIR$/container.php" />
+        <option value="$PROJECT_DIR$/logger.php" />
         <option value="$PROJECT_DIR$/main.php" />
       </list>
     </option>
@@ -227,7 +227,11 @@
       <created>1420451537656</created>
       <updated>1420451537656</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="после добавления логгера 2">
+      <created>1420455220546</created>
+      <updated>1420455220546</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -237,7 +241,7 @@
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1268238" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32884398" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2278339" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -273,7 +277,8 @@
     <MESSAGE value="arrayToCsv v.1" />
     <MESSAGE value="добавлен логгер" />
     <MESSAGE value="после добавления логгера" />
-    <option name="LAST_COMMIT_MESSAGE" value="после добавления логгера" />
+    <MESSAGE value="после добавления логгера 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="после добавления логгера 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -612,39 +617,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/htmlPage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="117" column="42" selection-start="3139" selection-end="3139" vertical-scroll-proportion="0.0" vertical-offset="1989" max-vertical-offset="3264">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mycurl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="-0.61538464" vertical-offset="1" max-vertical-offset="2329">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/logger.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="68" selection-start="244" selection-end="244" vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="1122">
+        <state line="32" column="59" selection-start="648" selection-end="648" vertical-scroll-proportion="-20.923077" vertical-offset="0" max-vertical-offset="1122">
           <folding>
             <element signature="e#6#84#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/htmlPage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="96" column="0" selection-start="2496" selection-end="2496" vertical-scroll-proportion="-59.5" vertical-offset="0" max-vertical-offset="3179">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mycurl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="20" selection-start="146" selection-end="146" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="2329">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/container.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="19" selection-start="236" selection-end="236" vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="4199">
+        <state line="105" column="25" selection-start="1924" selection-end="1924" vertical-scroll-proportion="-64.07692" vertical-offset="0" max-vertical-offset="4199">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="5" selection-start="830" selection-end="830" vertical-scroll-proportion="0.8095238" vertical-offset="391" max-vertical-offset="3009">
+        <state line="58" column="20" selection-start="965" selection-end="965" vertical-scroll-proportion="0.33333334" vertical-offset="774" max-vertical-offset="3077">
           <folding>
             <element signature="e#6#84#0" expanded="true" />
           </folding>
