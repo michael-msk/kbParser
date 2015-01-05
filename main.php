@@ -19,6 +19,13 @@ class main {
     private $_obPage;
     private $_obContainer;
 
+    private $_arStatus = array(
+        "STEP"=> 0,
+        "ERROR" => array(),
+    );
+
+    private $_endProcess = true;
+
     function __construct($arConfig)
     {
         $this->_arConfig = $arConfig;
@@ -55,6 +62,17 @@ class main {
     {
         $this->_obContainer = new container($name, $path);
     }
+
+    public function closeContainer()
+    {
+        if ( $this->_obContainer->close() === true )
+        {
+            return true;
+        } else {
+            throw new \Exception('Error of close of the container - "'.$name.'".' . PHP_EOL);
+        }
+    }
+
 
     /**
      * @return mixed
@@ -109,6 +127,23 @@ class main {
             }
         }
     }
+
+    /**
+     * @return array
+     */
+    public function getStatus()
+    {
+        return $this->_arStatus;
+    }
+
+    /**
+     * @return boolean
+     */
+    public function isEnd()
+    {
+        return $this->_endProcess;
+    }
+
 
     function test()
     {

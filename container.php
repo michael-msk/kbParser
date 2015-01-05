@@ -19,6 +19,8 @@ class container {
     private $_readOnly = false;
     private $_isNull = false;
 
+   private $_isNewConteiner = false;
+
     private $_arVariables = array();
 
     function __construct($name, $path = '')
@@ -31,7 +33,12 @@ class container {
 
             if (!$this->open())
             {
-                $this->create();
+                if ($this->create() === true)
+                {
+                    $this->_isNewConteiner = true;
+                } else {
+                    throw new \Exception('Error of creation of the container - "'.$name.'".' . PHP_EOL);
+                }
             }
         } else {
             throw new \Exception('Inadmissible name of the container - "'.$name.'".' . PHP_EOL);
@@ -229,6 +236,14 @@ class container {
     public function getVariables()
     {
         return $this->_arVariables;
+    }
+
+    /**
+     * @return boolean
+     */
+    public function getIsNewConteiner()
+    {
+        return $this->_isNewConteiner;
     }
 
 }
