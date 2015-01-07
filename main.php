@@ -12,13 +12,10 @@ namespace kbnet\parser;
 require_once('htmlPage.php');
 require_once('mycurl.php');
 require_once('container.php');
-// require_once('logger.php');
 
 class main {
 
     const DEBUG = true;
-    // const LOG_FILENAME = '/test/parser.log';
-    // public $obLog;
 
     private $_arConfig;
 
@@ -36,13 +33,9 @@ class main {
 
     function __construct($arConfig)
     {
-        // $this->obLog = new logger($_SERVER['DOCUMENT_ROOT'] . self::LOG_FILENAME, self::DEBUG);
-
         $this->_arConfig = $arConfig;
 
         $this->_obPage = new htmlPage($this->_arConfig['START_PAGE']);
-
-
     }
 
     function nextStep()
