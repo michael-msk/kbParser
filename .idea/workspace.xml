@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="888eabb1-2615-4783-8122-8aff22619abd" name="Default" comment="">
-      <change type="DELETED" beforePath="H:\project\kbParser\logger.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.php" afterPath="$PROJECT_DIR$/main.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="kbParser.iws" />
@@ -258,7 +256,11 @@
       <created>1420619941765</created>
       <updated>1420619941765</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="переделал логгер">
+      <created>1420620090093</created>
+      <updated>1420620090093</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
