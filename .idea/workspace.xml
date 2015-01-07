@@ -260,7 +260,11 @@
       <created>1420620090093</created>
       <updated>1420620090093</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="переделал логгер">
+      <created>1420620102546</created>
+      <updated>1420620102546</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
