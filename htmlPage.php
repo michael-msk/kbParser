@@ -1,9 +1,10 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: Name
- * Date: 20.12.14
- * Time: 12:17
+ * @package kbParser
+ * @copyright Copyright (c) 2015 Michael V. Scherbinsky
+ * @author Michael V. Scherbinsky <michael@kbnet.ru>
+ * Created date: 20.12.14 Time: 12:17
+ * @license
  */
 
 namespace kbnet\parser;

@@ -1,11 +1,10 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: Michael V. Schrebinsky
- * Mail: 9448800@gmail.com
- * Site: www.kbnet.ru
- * Date: 24.12.14
- * Time: 1:47
+ * @package kbParser
+ * @copyright Copyright (c) 2015 Michael V. Scherbinsky
+ * @author Michael V. Scherbinsky <michael@kbnet.ru>
+ * Created date: 24.12.14 Time: 1:40
+ * @license
  */
 
 namespace kbnet\parser;
@@ -55,9 +54,9 @@ class container {
         if ($this->isLock())
         {
             $this->_readOnly = true;
+        } else {
+            $this->setLock();
         }
-
-        $this->setLock();
 
         if ($this->readVariables())
         {

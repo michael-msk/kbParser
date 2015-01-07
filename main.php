@@ -1,9 +1,10 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: Name
- * Date: 20.12.14
- * Time: 11:59
+ * @package kbParser
+ * @copyright Copyright (c) 2015 Michael V. Scherbinsky
+ * @author Michael V. Scherbinsky <michael@kbnet.ru>
+ * Created date: 20.12.14 Time: 11:00
+ * @license
  */
 
 namespace kbnet\parser;
@@ -11,13 +12,13 @@ namespace kbnet\parser;
 require_once('htmlPage.php');
 require_once('mycurl.php');
 require_once('container.php');
-require_once('logger.php');
+// require_once('logger.php');
 
 class main {
 
     const DEBUG = true;
-    const LOG_FILENAME = '/test/parser.log';
-    public $obLog;
+    // const LOG_FILENAME = '/test/parser.log';
+    // public $obLog;
 
     private $_arConfig;
 
@@ -35,7 +36,7 @@ class main {
 
     function __construct($arConfig)
     {
-        $this->obLog = new logger($_SERVER['DOCUMENT_ROOT'] . self::LOG_FILENAME, self::DEBUG);
+        // $this->obLog = new logger($_SERVER['DOCUMENT_ROOT'] . self::LOG_FILENAME, self::DEBUG);
 
         $this->_arConfig = $arConfig;
 
